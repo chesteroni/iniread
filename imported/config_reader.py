@@ -2,7 +2,7 @@ import ConfigParser
 import StringIO
 import sys
 
-iniPath='config.ini'
+iniPath='../config/config.ini'
 expectedVariables = ['host', 'port', 'user', 'pass']
 config = {}
 
@@ -20,9 +20,3 @@ for var in expectedVariables:
         print "Missing config variable: " + var
 	sys.exit()
     config[var] = configRead.get("section", var).strip('"')
-
-
-print config['host']
-print config['port']
-print config['user']
-print config['pass']

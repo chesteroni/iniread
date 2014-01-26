@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #absolute path will work as well
-config_file=config.ini
+config_file=../config/config.ini
 expected_config_vars=( host user port pass )
 
 if [ ! -f $config_file ] 
@@ -20,4 +20,3 @@ do
     fi
 done
 
-echo $host $user $port $pass

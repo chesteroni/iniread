@@ -1,5 +1,5 @@
 <?php
-$iniPath = 'config.ini';
+$iniPath = '../config/config.ini';
 $expectedVariables = array('host', 'port', 'user', 'pass');
 
 if (!is_readable($iniPath)) {
