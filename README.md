@@ -5,10 +5,10 @@ Read simple ini file in popular script languages.
 
 Contents:
 --------
-config   - directory with a config sample
-direct   - examples of direct reading of a config - useful when only one
+- config   - directory with a config sample
+- direct   - examples of direct reading of a config - useful when only one
            script in a given language is being used
-imported - examples of usage when a script imports a module which reads
+- imported - examples of usage when a script imports a module which reads
            a config - useful when few scripts in a given language shares
            the configuration and you do like the "DRY" principle.
 
@@ -18,8 +18,8 @@ If you ever faced the situation when few scripts in few languages had
 to read a shared configuration file then this simple project is just
 what you need.
 
-I had bash, php and python scripts and an .ini file with a few variables
-- mostly the credentials for the database. I didn't want to repeat myself.
+I had bash, php and python scripts and an .ini file with a few variables - 
+mostly the credentials for the database. I didn't want to repeat myself.
 Quick googling gave me an answer for each language but no cross-language
 solution. This project is an answer. Feel free and use it wherewer you need.
 
