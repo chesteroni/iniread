@@ -21,7 +21,7 @@ what you need.
 I had bash, php and python scripts and an .ini file with a few variables - 
 mostly the credentials for the database. I didn't want to repeat myself.
 Quick googling gave me an answer for each language but no cross-language
-solution. This project is an answer. Feel free and use it wherewer you need.
+solution. This project is an answer. Feel free and use it wherever you need.
 
 
 Other languages:
